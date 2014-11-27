@@ -1,0 +1,535 @@
+
+.stackInfo {
+    margin-top: 5px;
+}
+
+.aboutAppTitle {
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+}
+
+
+/* Nav section */
+
+#buttonCreate {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    padding: 6px 20px;
+    background: #8AC007;
+    color: #FFFFFF;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+#buttonCreate:hover {
+    background: #FFFFFF;
+    color: #8AC007;
+    border: 1px solid #8AC007;
+    text-decoration: none;
+}
+
+#SpeechBlock {
+    position: absolute;
+    top: 7px;
+    left: 110px;
+    height: 25px;
+    width: 40px;
+    background-color: #EEEEEE;
+    border: 1px solid #CCCCCC;
+    /*border-radius: 30px;*/
+}
+
+#micCommand {
+    padding: 2px 2px 4px 4px;
+    border-right: 1px solid #CCCCCC;
+}
+
+#aboutSpeech {
+    position: absolute;
+    top: 5px;
+    left: 30px;
+}
+
+#instructionsCommand {
+    position: absolute;
+    top: 15px;
+    left: 160px;
+    font: 11px Verdana;
+}
+
+#aboutSpeechDetail {
+    position: absolute;
+    top: 15px;
+    left: 165px;
+}
+
+#infoAboutApp {
+    position: absolute;
+    top: 7px;
+    left: 400px;
+    font: bold 12px Verdana;
+    background-color: #EEEEEE;
+    border: 1px solid #CCCCCC;
+    padding: 5px;
+}
+
+#user_name {
+    position: absolute;
+    top: 0;
+    right: 150px;
+    border-right: 1px solid #CCCCCC;
+    padding: 15px 10px 10px 0;
+    margin-right: 10px;
+    font: bold 12px Verdana;
+}
+
+#menu {
+    position: absolute;
+    top: 8px;
+    right: 5px;
+}
+
+/* Filter section*/
+
+#filterBlock {
+    height: 35px;
+}
+
+#todayLabel {
+    position: absolute;
+    top: 6px;
+    left: 225px;
+}
+
+#prevNext{
+    position: absolute;
+    top: 10px;
+    left: 320px;
+}
+
+#prev, #next {
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+#periodPlace {
+    margin: auto;
+}
+
+#dayWeekMonth {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+/* Aside section */
+
+#miniCalendar,
+#miniCalendarForCreatePage {
+    margin: 5px;
+}
+
+#userPhoto {
+    margin: 7px;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px
+}
+
+#userInfo {
+    margin: 10px;
+}
+
+#searchBlock {
+    margin: 20px 0 0 0;
+}
+
+#searchSelect {
+    margin: 10px 0 20px 10px;
+}
+
+#formSearch, #formSearchFree {
+    margin: 20px 0 0 10px;
+}
+
+
+/* Content section */
+
+#reminderContent {
+    text-align: left;
+    max-width: 460px;
+    max-height: 600px;
+    overflow-y: scroll;
+    margin: 40px auto;
+    position: relative;
+    font: 12px Verdana;
+}
+
+#detailTitleBlock,
+#remindDescriptionBlock {
+    margin-bottom: 5px;
+}
+
+#detailPeriodBlock,
+#remindPeriodBlock {
+    font-size: 11px;
+    margin-bottom: 20px;
+}
+
+#detailDescriptionBlock,
+#remindDescriptionBlock {
+    margin-bottom: 10px;
+}
+
+#detailAttenderBlock,
+#remindAttenderBlock {
+    border-bottom: 1px solid #cccccc;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+#detailRepeaterBlock,
+#remindAttenderBlock {
+    border-bottom: 1px solid #cccccc;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+
+/* Create page */
+
+#formCreate {
+    margin: 10px;
+}
+
+#allDayBlock {
+    margin-bottom: 15px;
+}
+
+#titleBlock {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+#periodBlock {
+    margin-bottom: 10px;
+}
+
+#descriptionBlock {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+#attenderBlock {
+    margin-bottom: 20px;
+}
+
+#colorBlock {
+    margin-bottom: 20px;
+}
+
+#repeatBlock {
+    margin-bottom: 20px;
+}
+
+#reminderBlock {
+    margin-bottom: 20px;
+}
+
+#repeatPeriodicArea,
+#repeatDayArea,
+#occurrenceArea {
+    margin: 20px 0 20px 0
+}
+
+#description {
+    padding-right: 30px;
+    width: 317px;
+    min-height: 100px;
+    resize: vertical;
+}
+
+#instructionsDescription {
+    position: absolute;
+    top: 7px;
+    left: 360px;
+}
+
+#attenders {
+    padding-right: 30px;
+    width: 317px;
+}
+
+
+#colorBlock {
+    margin-top: 10px;
+}
+
+#micTitle {
+    position: absolute;
+    top: 3px;
+    left: 333px;
+}
+
+#micDescription {
+    position: absolute;
+    top: 3px;
+    left: 333px;
+}
+
+#aboutAttenderInput {
+    padding: 6px 5px 4px 5px;
+    background-color: #EEEEEE;
+    margin-left: -22px;
+}
+
+#aboutAttenderDetail {
+    position: absolute;
+    top: 230px;
+    left: 600px;
+}
+
+
+/* Footer */
+
+#owner {
+    position: absolute;
+    top: 10px;
+    left: 440px;
+    color: #BFBFBF;
+}
+
+/* Classes */
+
+.border-bottom {
+    border-bottom: 1px solid #cccccc;
+}
+
+.dispNone {
+    display: none;
+}
+
+.weekDayCell {
+    overflow: hidden;
+    height: 590px;
+    font-size: 10px
+}
+
+.monthDayCell {
+    overflow: hidden;
+    height: 75px;
+    font-size: 10px
+}
+
+.metaFont {
+    font-size: 11px;
+    font-weight: bold
+}
+
+.titleFont {
+    font-size: 14px;
+    font-weight: bold
+}
+
+.infoFont {
+    font-size: 11px;
+    color: #444644
+}
+
+.menuItem {
+    cursor: pointer;
+    opacity: 0.6;
+    margin-right: 7px;
+}
+
+.menuItem:hover {
+    opacity: 1;
+}
+
+.displayedPeriod {
+    position: absolute;
+    top: 10px;
+    left: 400px;
+    font: 14px Verdana;
+    color: #999999;
+}
+
+.searchPeriod {
+    font: 14px Verdana;
+    color: #999999;
+    margin: 10px;
+    padding: 0 0 5px 15px;
+    border-bottom: 1px solid #cccccc;
+}
+
+.count {
+    position: absolute;
+    top: 0;
+    left: 365px;
+    color: #000000;
+    font: 10px Verdana;
+}
+
+.divDetail {
+    position: absolute;
+    z-index: 1;
+    padding: 10px;
+    border: 1px solid #D0D0D0;
+    width: 280px;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.divEvent {
+    margin: 3px;
+    padding: 3px;
+    border: 1px solid #4A4DDD;
+    cursor: pointer;
+}
+
+
+.divEvent:hover {
+    box-shadow: inset 0 0 5px rgba(0,0,0,0.5);
+}
+
+.divInterval {
+    background-color: #B8B9FF;
+    border: 1px solid #4A4DDD;
+    margin: 10px;
+    padding: 3px;
+}
+
+.input {
+    font: 14px Verdana;
+    border: 1px solid #333333;
+    height: 25px;
+    width: 140px;
+    background-color: #f4f9ff;
+    padding: 0 7px;
+}
+
+.input:FOCUS {
+    border: 1px solid #1351b4;
+    background-color: #ffffff;
+}
+
+.succesful {
+    margin-left: 10px;
+    font: 11px Verdana;
+    color: #008000;
+}
+
+.exception {
+    margin-left: 10px;
+    font: 11px Verdana;
+    color: #FF0F22;
+}
+
+.colorBox {
+    cursor: pointer;
+    padding: 0 8px;
+    margin: 2px;
+    border: 1px solid #4A4DDD;
+}
+
+.colorBox:hover {
+    box-shadow: 0px 0px 1px 1px #4584EF;
+}
+
+.button {
+    width: 120px;
+    background: #4584EF;
+    color: #FFFFFF;
+    font-size: 16px;
+    text-align: center;
+    border: 1px solid #cccccc;
+    padding: 5px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.button:HOVER {
+    background: #FFFFFF;
+    color: #4584EF;
+    border: 1px solid #4584EF;
+
+}
+
+.button:FOCUS {
+    outline: none;
+}
+
+input[name=repeatCheck],
+input[name=periodFilter],
+input[name=todayFilter],
+input[name=sortFilter],
+input[name=allDay],
+input[name=color]
+{
+    display:none;
+}
+input[name=color]:checked + label {
+    box-shadow: 0px 0px 2px 2px #4584EF;
+}
+
+.labelButton {
+    background: #EEEEEE;
+    color: #000000;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px 15px;
+    border: solid 1px #CCCCCC;
+    cursor: pointer;
+    user-select: none;
+}
+
+.labelButton:hover {
+    box-shadow: 0px 0px 1px 1px #CCCCCC;
+}
+
+input[name=repeatCheck]:checked + label,
+input[name=periodFilter]:checked + label,
+input[name=todayFilter]:checked + label,
+input[name=sortFilter]:checked + label,
+input[name=allDay]:checked + label {
+    background: #d0d0d0;
+}
+
+a {
+    text-decoration: none;
+    color:#4585F3;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+
+/* Table style */
+
+table, td, th {
+    overflow: hidden;
+    font: 12px Verdana;
+    border: none;
+}
+
+table {
+    width: 730px;
+    border-collapse: collapse;
+    background-color: #F8F8F8;
+    color: #000000;
+}
+
+td, th {
+    width: 100px;
+    border-right: 1px solid #CCCCCC;
+    border-bottom: 1px solid #CCCCCC;;
+}

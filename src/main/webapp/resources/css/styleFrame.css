@@ -1,0 +1,58 @@
+
+header, section, footer, aside, nav, main, article, figure {
+    display: block;
+}
+
+#wrapper {
+    position: relative;
+	width: 975px;
+	margin: 0 auto;
+	font: 12px Verdana;
+	border: 1px solid #cccccc;
+	background-color: #F2F2F2;
+}
+
+#calendarHeader {
+    position: relative;
+    background-image: url(../images/header.png);
+    background-repeat: no-repeat;
+    height: 170px;
+}
+
+nav {
+    position: relative;
+    height: 40px;
+	margin: 5px;
+	background-color: #F8F8F8;
+	border: 1px solid #cccccc;
+}
+
+#content {
+    position: relative;
+    height: 650px;
+    margin: 5px;
+    border: 1px solid #cccccc;
+    background-color: #F8F8F8;
+}
+
+#asideBar {
+    float: left;
+    position: relative;
+    height: 650px;
+    width: 215px;
+    border-right: 1px solid #cccccc;
+    background-color: #F8F8F8;
+}
+
+#result {
+    height: inherit;
+    overflow-y: scroll;
+}
+
+footer {
+    position: relative;
+	height: 50px;
+	background-color: #F8F8F8;
+}
+
+
